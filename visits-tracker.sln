@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Pixel.Service", "Tracker.Pixel.Service\Tracker.Pixel.Service.csproj", "{DD0D9D63-B55A-49BA-B6D4-469783E5D486}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Storage.Service", "Tracker.Storage.Service\Tracker.Storage.Service.csproj", "{AAB4ADFD-67EC-4F94-87BB-A80665FECC16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{DD0D9D63-B55A-49BA-B6D4-469783E5D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0D9D63-B55A-49BA-B6D4-469783E5D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0D9D63-B55A-49BA-B6D4-469783E5D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB4ADFD-67EC-4F94-87BB-A80665FECC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB4ADFD-67EC-4F94-87BB-A80665FECC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB4ADFD-67EC-4F94-87BB-A80665FECC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB4ADFD-67EC-4F94-87BB-A80665FECC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
