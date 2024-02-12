@@ -1,5 +1,3 @@
-using Confluent.Kafka;
-using Tracker.Storage.Service;
 using Tracker.Storage.Service.Core;
 using Tracker.Storage.Service.Worker;
 

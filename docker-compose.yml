@@ -1,6 +1,22 @@
 version: '3.1'
 
 services:
+  tracker-pixel-service:
+    image: tracker-pixel
+    container_name: tracker-pixel-service
+    build:
+      context: ./src/Tracker.Pixel.Service
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+
+  tracker-storage-service:
+    image: tracker-storage
+    container_name: tracker-storage-service
+    build:
+      context: ./src/Tracker.Storage.Service
+      dockerfile: Dockerfile
+  
   zookeeper:
     image: confluentinc/cp-zookeeper:7.3.2
     hostname: zookeeper
